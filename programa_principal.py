@@ -7,9 +7,9 @@ import mostrar_numeros_pares_cantidad
 
 import mostrar_numeros_perfectos_rango
 
-#import mostrar_numeros_perfectos_cantidad
+import mostrar_numeros_perfectos_cantidad
 
-#import maximo_comun_divisor_dos_numeros
+import maximo_comun_divisor_dos_numeros
 
 #import maximo_comun_divisor_varios_numeros
 
@@ -40,6 +40,13 @@ def programa_principal():
     elif opcn_usuario == 4:
         print("\nHa elegido mostrar los numeros perfectos en un rango\n")
         mostrar_numeros_perfectos_rango.numeros_perfectos_rango()
+    elif opcn_usuario == 5:
+        print("\nHa elegido mostrar la cantidad de numeros perfectos empezando desde 1\n")
+        mostrar_numeros_perfectos_cantidad.numeros_perfectos_cantidad()
+    elif opcn_usuario == 6:
+        print("\nHa elegido el Máximo Común Divisor de dos números\n")
+        maximo_comun_divisor_dos_numeros.mcd_dos_numeros()
+
 
 #-------------------------------------------------------------------------------------
 #Ejecución de la función del programa principal
