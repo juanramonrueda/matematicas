@@ -1,6 +1,4 @@
 #-------------------------------------------------------------------------------------
-#import calculadora_basica
-
 import mostrar_numeros_impares_cantidad
 
 import mostrar_numeros_pares_cantidad
@@ -11,19 +9,15 @@ import mostrar_numeros_perfectos_cantidad
 
 import maximo_comun_divisor_dos_numeros
 
-#import maximo_comun_divisor_varios_numeros
-
-#import minimo_comun_multiplo_dos_numeros
-
-#import minimo_comun_multiplo_varios_numeros
-
 #-------------------------------------------------------------------------------------
 def menu():
     print("Estas son las opciones matemáticas que hay")
-    #print("\n1.- Calculadora básica\n")
+    
     print("\n2.- Mostrar números impares en un rango\n")
     print("\n3.- Mostrar números pares en un rango\n")
     print("\n4.- Mostrar los números perfectos en un rango\n")
+    print("\n5.- Mostrar una cantidad de números perfectos desde el 1\n")
+    print("\n6.- Realizar el Máximo Común Divisor de dos números\n")
 
 #-------------------------------------------------------------------------------------
 #Programa principal
