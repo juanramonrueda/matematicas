@@ -1,4 +1,4 @@
-def numeros_pares_cantidad():
+def funcion_principal():
     #----------------------------------------------------------------------------------------------------
     primer_rango = int(input("\nIntroduzca el primer rango\n"))
 
@@ -23,5 +23,6 @@ def numeros_pares_cantidad():
 
     #----------------------------------------------------------------------------------------------------
     imprimir = str(input("¿Quiere conocer la cantidad de números pares?\n"))
+    
     if imprimir == "s":
         print(f'\nLa cantidad de números pares entre {primer_rango} y {segundo_rango} es: {cantidad}\n')

@@ -1,4 +1,4 @@
-def mcd_dos_numeros():
+def funcion_principal():
     #------------------------------------------------------------------------------------------------------------------------------------
     resultado = -1 #Inicializo la variable a un número distinto de 0 para que entre al bucle
 
@@ -24,7 +24,6 @@ def mcd_dos_numeros():
 
     #------------------------------------------------------------------------------------------------------------------------------------
     #El cálculo del Máximo Común Divisor se realiza mediante restas sucesivas hasta que el resultado de las restas sea 0
-    #Este algoritmo fue usado por Euclídes
     while resultado != 0:
 
         resultado = primer_numero_calculos - segundo_numero_calculos #Guardo el resultado de la resta

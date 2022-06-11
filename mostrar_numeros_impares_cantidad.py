@@ -1,4 +1,4 @@
-def numeros_impares_cantidad():
+def funcion_principal():
     #----------------------------------------------------------------------------------------------------
     primer_rango = int(input("\nIntroduzca el primer rango\n"))
 
@@ -24,5 +24,6 @@ def numeros_impares_cantidad():
 
     #----------------------------------------------------------------------------------------------------
     imprimir = str(input("¿Quiere conocer la cantidad de números impares?\n"))
+    
     if imprimir == "s":
         print(f'\nLa cantidad de números impares entre {primer_rango} y {segundo_rango} es: {cantidad}\n')
